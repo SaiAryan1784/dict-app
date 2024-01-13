@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#sound{
+    cursor: pointer;
+}
+
 body{
     background-color: #3e83ea;
 }
@@ -15,7 +19,7 @@ body{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    padding: 80px 50px;
+    padding: 20px 50px;
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 31, 0.1);
 }
@@ -35,6 +39,17 @@ body{
     font-size: 16px;
 }
 
+.credit{
+    position: fixed;
+    bottom: 5px;
+    left: 45%;
+}
+
+#greeting{
+    text-align: center;
+    padding: 3rem;
+}
+
 .search-box button{
     padding: 5px 0;
     width: 25%;
@@ -48,6 +63,7 @@ body{
 
 .result{
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .result h3{
